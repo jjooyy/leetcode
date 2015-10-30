@@ -11,9 +11,6 @@ public:
         if(right>0&&right>left) {
             genParenthesisUtil(out, left, right-1, temp+")");
         }
-
-
-
     }
     
     vector<string> generateParenthesis(int n) {
